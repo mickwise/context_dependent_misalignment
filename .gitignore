@@ -216,3 +216,6 @@ __marimo__/
 *.synctex.gz
 *.fls
 *.fdb_latexmk
+
+# Deprecated files
+deprecated
