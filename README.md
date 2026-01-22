@@ -84,7 +84,7 @@ This repo wraps EvilGenie tasks and records CDM metrics per run. Concretely:
 ## Status
 
 - [x] CDM setup written (definitions + metrics)
-- [x] EvilGenie task integration scaffold
+- [] EvilGenie task integration scaffold
 - [ ] First end-to-end experiment run + cleaned result tables
 - [ ] Ablations: detectors vs constraints, compute budget sensitivity
 - [ ] Inference layer (ARX-style analysis) + robust SEs (optional)
