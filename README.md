@@ -9,7 +9,7 @@ The project has two pillars:
 
 ---
 
-## What to look at first (recruiter-friendly)
+## What to look at first
 
 - **`setup.pdf`** (or `docs/setup.pdf`): the written setup + metrics (short, 6 pages).
 - **EvilGenie adapter / tasks**: the code that runs EvilGenie problems and records alignment metrics.
@@ -17,7 +17,7 @@ The project has two pillars:
 
 ---
 
-## CDM setup (high-level)
+## CDM setup
 
 We model evaluation as a **sequence of tasks**. Each task defines:
 
@@ -47,7 +47,7 @@ This makes it a good substrate for alignment stress-testing: we can turn “rewa
 
 ---
 
-## EvilGenie integration (what this repo adds)
+## EvilGenie integration
 
 This repo wraps EvilGenie tasks and records CDM metrics per run. Concretely:
 
@@ -66,7 +66,7 @@ This repo wraps EvilGenie tasks and records CDM metrics per run. Concretely:
 
 ---
 
-## Repository layout (adjust names to match your tree)
+## Repository layout
 
 - `docs/`  
   - `setup.pdf` – CDM setup + definitions + metrics
@@ -93,7 +93,7 @@ This repo wraps EvilGenie tasks and records CDM metrics per run. Concretely:
 
 ## Notes
 
-This is a research repo. The goal is clarity and reproducibility over “production polish”:
+This is a research repo. The goal is clarity and reproducibility:
 - deterministic configs,
 - saved artifacts,
 - explicit metrics,
